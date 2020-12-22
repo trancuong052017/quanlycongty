@@ -1,0 +1,69 @@
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 { position: absolute; }
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {position: absolute;width: 12px;height: 12px;filter: alpha(opacity=70);opacity: .7;overflow: hidden;cursor: pointer;border: #000 1px solid;}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+/* jssor slider arrow navigator skin 02 css */
+/*
+.jssora02l                  (normal)
+.jssora02r                  (normal)
+.jssora02l:hover            (normal mouseover)
+.jssora02r:hover            (normal mouseover)
+.jssora02l.jssora02ldn      (mousedown)
+.jssora02r.jssora02rdn      (mousedown)
+*/
+.jssora02l, .jssora02r {display: block;position: absolute;width: 55px;height: 55px;cursor: pointer;background: url('a02.png')/*tpa=http://andailoc.vn/plugin/images/a02.png*/ no-repeat;overflow: hidden;}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02l.jssora02ldn { background-position: -3px -33px; }
+.jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 { position: absolute; }
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { position: absolute; width: 16px; height: 16px; background: url('b05.png')/*tpa=http://andailoc.vn/plugin/images/b05.png*/ no-repeat; overflow: hidden; cursor: pointer; }
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 22 css */
+/*
+.jssora22l                  (normal)
+.jssora22r                  (normal)
+.jssora22l:hover            (normal mouseover)
+.jssora22r:hover            (normal mouseover)
+.jssora22l.jssora22ldn      (mousedown)
+.jssora22r.jssora22rdn      (mousedown)
+*/
+.jssora22l, .jssora22r { display: block; position: absolute; width: 40px; height: 58px; cursor: pointer; background: url('a22.png')/*tpa=http://andailoc.vn/plugin/images/a22.png*/ center center no-repeat; overflow: hidden; }
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+.slider-info {max-height:100%;max-width: 100%;overflow: hidden;color: #fff;}
+.slider-info .name {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=225, Color=#fff)";
+    text-shadow: 0 2px 0 #fff, 0 0 2px #fff, 2px 0 0 #fff,2px 2px 0 #fff, -2px 0 0 #fff, -2px 2px 0 #fff, -2px -2px 0 #fff, 0 -2px 0 #fff, 2px -2px 0 #fff;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color=#fff);}
+.slider-info .name {color: #f00;font-family: rcb;font-size: 20px;}
+.slider-info img {max-width: 100% !important;max-height: 100% !important;}

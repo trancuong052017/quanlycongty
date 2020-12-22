@@ -1,0 +1,20 @@
+.stickytooltip{
+	display:none;
+	position:absolute;
+	border:none !important; /*Border around tooltip*/
+	background:#f2fafd;
+	z-index:3000;
+	min-width:200px;
+	max-width:400px;
+	padding: 5px;
+	color: #000 !important;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+	background:black;
+	color:white;
+	text-align:center;
+	font:bold 11px Arial;
+}
+.tooltip {position: relative;opacity: 1;}

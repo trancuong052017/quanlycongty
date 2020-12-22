@@ -1,0 +1,26 @@
+
+/* Gio hang*/
+.cart_menu{}
+#giohang{position: fixed;z-index: -1;width: 100%;height: 100%;top: 0px;left: 0;  background: rgba(0,0,0,0.5); opacity: 0;}
+#giohang.active{z-index: 9990; opacity: 1;}
+.w-giohang{background: #FFF;position: relative;width: 800px;max-width: 100%; margin: 50px auto; border-radius: 5px;padding: 10px; transition:all 0.5s;top: -1000px; max-height: calc(100% - 100px);overflow: auto;}
+#giohang.active .w-giohang{top: 0;}
+.giohang-cl{position: absolute;top: 0px;right: 0px;cursor: pointer;}
+.giohang-tit{ margin-bottom: 15px;font-family: RCR; font-size: 18px;}
+.tbl-giohang {width: 100%;}
+.tbl-giohang .tr{ border-bottom: 1px solid #CCC;}
+.tbl-giohang .th{ background: #eeeeee; padding: 2px 5px;}
+.tbl-giohang .th:last-child{text-align: right; padding-right: 20px;}
+.tbl-giohang .td{ padding: 5px 0px;}
+.tbl-giohang .td:nth-child(1){width: 50%;}
+.tbl-giohang .td:nth-child(2){ color: #F00; font-weight: bold;}
+.tbl-giohang .td:nth-child(3),.tbl-giohang .th:nth-child(3){ width: 80px; text-align: center;}
+.tbl-giohang .td:nth-child(3) input{ width: 50px;}
+.tbl-giohang .td:nth-child(4){ text-align: right; font-weight: bold; color: #F00;}
+.giohang-thanhtien{ font-family: RCB; text-align: right; font-size: 16px; margin-top: 10px; }
+.giohang-thanhtien span{ color: #F00;}
+.giohang-btn{margin-top: 10px;}
+.giohang-btn-l{float: left;}
+.giohang-btn-r{float: right;}
+.giohang-btn-r button{ background: #d60c0c; color: #FFF; font-family: RCB; font-size: 16px; padding: 5px 15px;}
+.box-spc .info {display: inline-block;vertical-align: middle;}
